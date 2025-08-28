@@ -12,17 +12,26 @@
     <p>Here is the information that you entered:</p>
 
     <label>Email:</label>
-    <span>${user.email}</span><br>
+    <span>${email}</span><br>
     <label>First Name:</label>
-    <span>${user.firstName}</span><br>
+    <span>${firstName}</span><br>
     <label>Last Name:</label>
-    <span>${user.lastName}</span><br>
-<p>To enter another email, click the Return button below.</p>
+    <span>${lastName}</span><br>
+    <label>Day of Birth:</label>
+    <span>${dob}</span><br>
+    <label>Heard From:</label>
+    <span>${heardFrom}</span><br>
+    <label>Wants Updates:</label>
+    <span>${wantsUpdates}</span><br>
+    <label>Email OK:</label>
+    <span>${emailOK}</span><br>
+    <label>Contact Via:</label>
+    <span>${contactVia}</span><br>
 
-    <form action="" method="get">
-        <input type="hidden" name="action" value="join">
+    <p>To enter another email, click the Return button below.</p>
+
+    <form action="index.html" method="get">
         <input type="submit" value="Return">
     </form>
-
 </body>
 </html>
